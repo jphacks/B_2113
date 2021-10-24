@@ -1,4 +1,4 @@
-# サンプル（プロダクト名）
+# 有価証券報告書分析ツール「ゆーほー」
 
 [![IMAGE ALT TEXT HERE](https://jphacks.com/wp-content/uploads/2021/07/JPHACKS2021_ogp.jpg)](https://www.youtube.com/watch?v=LUPQFB4QyVo)
 
