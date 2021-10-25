@@ -1,8 +1,8 @@
-.e2_2 { 
+.container { 
 	overflow:hidden;
 }
 
-.e2_2 { 
+.container { 
 	background-color:rgba(255, 255, 255, 1);
 	width:1152px;
 	height:700px;
@@ -14,7 +14,7 @@
 	background-size:cover;
 }
 
-.e3_2 {
+.drop_zone {
 	background-color:rgba(255, 255, 255, 1);
 	width:406px;
 	height:65px;
@@ -24,7 +24,7 @@
 	border-radius:10px;
 }
 
-.e19_15 { 
+.form { 
 	color:rgba(0, 0, 0, 0.3700000047683716);
 	width:210px;
 	height:44.5px;
@@ -37,7 +37,7 @@
 	letter-spacing:-0.40;
 }
 
-.e3_4 { 
+.title { 
 	color:rgba(255, 255, 255, 1);
 	width:866px;
 	height:91px;
@@ -50,7 +50,7 @@
 	letter-spacing:0;
 }
 
-.e3_5 {
+.button_right {
 	background-color:rgba(255, 255, 255, 1);
 	width:192px;
 	height:44px;
@@ -63,7 +63,7 @@
 	border-bottom-right-radius:4px;
 }
 
-.e3_7 { 
+.text1 { 
 	background-image:linear-gradient(0deg, rgba(173.39995622634888, 0, 255, 1) 0%,rgba(35.699965953826904, 0, 255, 1) 100%) ;
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
@@ -82,7 +82,7 @@
 	letter-spacing:-0.40;
 }
 
-.e3_8 {
+.button_left {
 	background-color:rgba(255, 255, 255, 1);
 	width:192px;
 	height:44px;
@@ -95,7 +95,7 @@
 	border-bottom-right-radius:4px;
 }
 
-.e3_10 { 
+.text2 { 
 	width:89px;
 	height:21px;
 	position:absolute;
@@ -107,7 +107,7 @@
 	letter-spacing:-0.4000000059604645;
 }
 
-.e3_11 {
+.help {
 	background-color:rgba(255, 255, 255, 1);
 	border-radius:500px;
 	width:35px;
@@ -117,7 +117,7 @@
 	top:641px;
 }
 
-.e3_13 { 
+.mark { 
 	width:7px;
 	height:16px;
 	position:absolute;
@@ -129,7 +129,7 @@
 	letter-spacing:-0.400;
 }
 
-.e19_16 { 
+.list { 
 	background-color:rgba(255, 255, 255, 1);
 	width:406px;
 	height:30px;
@@ -142,7 +142,7 @@
 	border-bottom-right-radius:10px;
 }
 
-.e19_38 { 
+.button_right2 { 
 	transform: rotate(90deg);
 	width:29px;
 	height:0px;
