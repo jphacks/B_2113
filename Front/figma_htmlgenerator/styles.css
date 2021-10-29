@@ -3,7 +3,7 @@
 }
 
 .container {
-	background-color:rgba(255, 255, 255, 1);
+	background-color:rgba(255, 255, 255, 0);
 	width:100%;
 	height:100%;
 	position:absolute;
@@ -22,7 +22,7 @@
 	/* margin-bottom: auto; */
 }
 #upFileWrap {
-	background:linear-gradient(0deg, rgba(255, 255, 255, 0.336), rgba(255, 255, 255, 0.5) 100%);
+	background:linear-gradient(0deg, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.5) 100%);
 	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 	backdrop-filter: blur( 13.5px );
 	-webkit-backdrop-filter: blur( 13.5px );
@@ -98,19 +98,19 @@
 	height: 20px;
 	border: 1px solid rgb(107, 219, 253);
 	border-radius: 4px;
-	background:linear-gradient(0deg, rgba(112, 186, 255, 0.486),rgba(112, 186, 255, 0.562)  100%);
+	background:linear-gradient(0deg, rgba(112, 186, 255, 0.37),rgba(112, 186, 255, 0.562)  100%);
 	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 	backdrop-filter: blur( 13.5px );
 	-webkit-backdrop-filter: blur( 13.5px );
-	border-radius: 10px;
+	border-radius: 20px;
 	border: 1px solid rgba(255, 255, 255, 0.18);
 	text-decoration: none;
-	color: #fff;
+	color: rgb(255, 255, 255);
 	font-size: 19px;
 	line-height: 1;
-	font-weight: bold;
+	/* font-weight: bold; */
 	vertical-align: middle;
-	font-family: roboto;
+	font-family: Hiragino Mincho ProN;
 }
 
 #upFileWrap.selected #btnInputFile {
@@ -135,7 +135,7 @@
 }
 
 .title_box{
-	background:linear-gradient(0deg, rgba(255, 255, 255, 0.356), rgba(255, 255, 255, 0.5) 100%);
+	background:linear-gradient(0deg, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.5) 100%);
 	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 	backdrop-filter: blur( 13.5px );
 	-webkit-backdrop-filter: blur( 13.5px );
@@ -163,7 +163,7 @@
 }
 
 .button_right {
-	background:linear-gradient(0deg, rgba(255, 255, 255, 0.342), rgba(255, 255, 255, 0.5) 100%);
+	background:linear-gradient(0deg, rgba(255, 255, 255, 0.205), rgba(255, 255, 255, 0.5) 100%);
 	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 	backdrop-filter: blur( 13.5px );
 	-webkit-backdrop-filter: blur( 13.5px );
@@ -200,7 +200,7 @@
 }
 
 .button_left {
-	background:linear-gradient(0deg, rgba(255, 255, 255, 0.342), rgba(255, 255, 255, 0.5) 100%);
+	background:linear-gradient(0deg, rgba(255, 255, 255, 0.253), rgba(255, 255, 255, 0.5) 100%);
 	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 	backdrop-filter: blur( 13.5px );
 	-webkit-backdrop-filter: blur( 13.5px );
@@ -250,7 +250,7 @@
 }
 
 .list {
-	background:linear-gradient(0deg, rgba(255, 255, 255, 0.336), rgba(255, 255, 255, 0.5) 100%);
+	background:linear-gradient(0deg, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.5) 100%);
 	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 	backdrop-filter: blur( 13.5px );
 	-webkit-backdrop-filter: blur( 13.5px );
