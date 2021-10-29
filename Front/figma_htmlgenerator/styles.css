@@ -22,7 +22,7 @@
 	/* margin-bottom: auto; */
 }
 #upFileWrap {
-	background: rgba( 255, 255, 255, 0.5 );
+	background:linear-gradient(0deg, rgba(255, 255, 255, 0.336), rgba(255, 255, 255, 0.5) 100%);
 	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 	backdrop-filter: blur( 13.5px );
 	-webkit-backdrop-filter: blur( 13.5px );
@@ -56,7 +56,7 @@
 
 #dropArea.dragover {
 	border: 2px solid #16a5bf;
-	background: rgba(22, 165, 191, 0.6);
+	background: rgba(70, 227, 255, 0.877);
 }
 
 #uploadFile {
@@ -98,7 +98,7 @@
 	height: 20px;
 	border: 1px solid rgb(107, 219, 253);
 	border-radius: 4px;
-	background: rgba(112, 186, 255, 0.562);
+	background:linear-gradient(0deg, rgba(112, 186, 255, 0.486),rgba(112, 186, 255, 0.562)  100%);
 	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 	backdrop-filter: blur( 13.5px );
 	-webkit-backdrop-filter: blur( 13.5px );
@@ -135,7 +135,7 @@
 }
 
 .title_box{
-	background: rgba( 255, 255, 255, 0.5 );
+	background:linear-gradient(0deg, rgba(255, 255, 255, 0.356), rgba(255, 255, 255, 0.5) 100%);
 	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 	backdrop-filter: blur( 13.5px );
 	-webkit-backdrop-filter: blur( 13.5px );
@@ -163,7 +163,7 @@
 }
 
 .button_right {
-	background: rgba( 255, 255, 255, 0.5 );
+	background:linear-gradient(0deg, rgba(255, 255, 255, 0.342), rgba(255, 255, 255, 0.5) 100%);
 	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 	backdrop-filter: blur( 13.5px );
 	-webkit-backdrop-filter: blur( 13.5px );
@@ -181,7 +181,7 @@
 }
 
 .text1 {
-	background-image:linear-gradient(0deg, rgb(0, 0, 0) 0%,rgb(88, 88, 88) 100%) ;
+	background-image:linear-gradient(0deg, rgb(97, 97, 97) 0%,rgb(0, 0, 0) 100%) ;
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 	-moz-background-clip:text;
@@ -200,7 +200,7 @@
 }
 
 .button_left {
-	background: rgba( 255, 255, 255, 0.5 );
+	background:linear-gradient(0deg, rgba(255, 255, 255, 0.342), rgba(255, 255, 255, 0.5) 100%);
 	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 	backdrop-filter: blur( 13.5px );
 	-webkit-backdrop-filter: blur( 13.5px );
@@ -219,7 +219,7 @@
 }
 
 .text2 {
-	background-image:linear-gradient(0deg, rgb(0, 0, 0) 0%,rgb(88, 88, 88) 100%) ;
+	background-image:linear-gradient(0deg, rgb(95, 95, 95) 0%,rgb(0, 0, 0) 100%) ;
 	-webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
 	-moz-background-clip:text;
@@ -250,7 +250,7 @@
 }
 
 .list {
-	background: rgba( 255, 255, 255, 0.5 );
+	background:linear-gradient(0deg, rgba(255, 255, 255, 0.336), rgba(255, 255, 255, 0.5) 100%);
 	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 	backdrop-filter: blur( 13.5px );
 	-webkit-backdrop-filter: blur( 13.5px );
