@@ -23,7 +23,7 @@
 
 ## 開発技術
 ### 活用した技術
-フロント:Javascript, HTML, CSS
+フロント:Javascript, HTML, CSS<br>
 バックエンド：python
 その他:Tesseract, OpenCV, 
 #### API・データ
