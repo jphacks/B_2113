@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>有価証券報告書分析ツール「ゆーほー」</title>
+
+  <link href="{% static 'index.css' %}" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    body {background: #E5E5E5; }
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    <form action="./upload" method="post" enctype="multipart/form-data">
+    <div class="all_ui">
+      <div id="upFileWrap">
+        <div id="inputFile">
+          <!-- ドラッグ&ドロップエリア -->
+          <p id="dropArea">ここにファイルをドロップしてください<br>または</p>
+
+            <!-- 通常のinput[type=file] -->
+            <div id="inputFileWrap">
+              <input type="file" name="yuuka" id="uploadFile" accept=".pdf" required>
+              <div id="btnInputFile"><span>ファイルを選択する</span></div>
+              <div id="btnChangeFile"><span>ファイルを変更する</span></div>
+            </div>
+        </div>
+        <!-- <span  class="form">ドラッグ＆ドロップでアップロード現在対応している形式：PDF</span> -->
+      </div>
+      <div class="button_left">
+        <span  class="text2"><label><input type="submit" style="display:none;" accept=".pdf" required> {% csrf_token %}アップロード</label></span>
+      </div>
+      <div class="list">
+        <div  class="button_right2"></div>
+        <span  class="e19_39"></span>
+      </div>
+    </div>
+  </form>
+    <div class="title_box">
+      <span  class="title">有価証券報告書分析ツール</span>
+    </div>
+  </div>
+</body>
+</html>

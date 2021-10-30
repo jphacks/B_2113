@@ -1,0 +1,25 @@
+<script type="text/javascript">
+    $("#submiter").on("click",function(){
+      $('#loading').show();
+    });
+
+
+    window.onload = function(){
+        Box = document.getElementById("preloader_1");        // 「id="javascriptBox"」をBox変数に格納
+        Push = document.getElementById("submiter");    // 「id="javascriptPush"」をPush変数に格納
+        Box.style.display = 'none'; // Box変数のstyleを「display: none;」にする
+
+        // Push変数がクリックされた場合
+        Push.onclick = function(){
+            // 「id="javascriptBox"」が「display: block;」の場合、クリックすると「display: none;」にする。
+            // また「id="javascriptBox"」が「display: none;」の場合、クリックすると「display: block;」にする。
+            Box.style.display = Box.style.display == 'block' ? 'none' : 'block';
+    }
+  }
+</script>
+</span>
+</div>
+<img  id="loading" src="{% static 'images/Activity Indicator.gif' %}" >
+<div id="preloader_1">
+<p>Loading...</p>
+</div>
