@@ -1,6 +1,6 @@
 # 有価証券報告書分析ツール「ゆーほー」
 
-[![IMAGE ALT TEXT HERE](https://jphacks.com/wp-content/uploads/2021/07/JPHACKS2021_ogp.jpg)](https://www.youtube.com/watch?v=LUPQFB4QyVo)
+<img src="https://jphacks.com/wp-content/uploads/2021/07/JPHACKS2021_ogp.jpg" width="550px"><img src="https://user-images.githubusercontent.com/82380312/139517093-e371b4e3-8041-45d7-a206-e6646e9305f8.png" width="350px">
 
 ## 製品概要
 
